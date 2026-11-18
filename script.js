@@ -53,7 +53,7 @@ const quizQuestions = [
       { text: "JavaScript", correct: false },
     ],
   },
-  
+
   {
     question: "What is the chemical symbol for gold?",
     answers: [
@@ -64,3 +64,20 @@ const quizQuestions = [
     ],
   },
 ];
+
+// QUIZ STATE VARS
+
+let currentQuestionIndex = 0;
+let score = 0;
+let answersDisabled = false;
+
+totalQuestionsSpan.textContent = quizQuestions.length;
+maxScoreSpan.textContent = quizQuestions.length;
+
+
+// EVENT LISTENERS
+
+startButton.addEventListener("click", (event)=> {
+    startScreen.removeClassList("active");
+    quizScreen.addClassList("active");
+})
