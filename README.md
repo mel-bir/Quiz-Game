@@ -4,7 +4,7 @@
 
 A clean, interactive multiple-choice quiz game built with vanilla HTML, CSS, and JavaScript. Users can test their knowledge, receive instant visual feedback on their answers, and view their final score at the end of the round.
 
-🔗 **Live Demo:** [View Live Project](https://github.com/mel-bir/Quiz-Game.git)
+🔗 **Live Demo:** [View Live Project](https://mel-bir.github.io/Quiz-Game/)
 ---
 
 ## ✨ Features
